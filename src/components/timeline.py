@@ -27,4 +27,5 @@ def create_timeline(df):
     timeline.update_layout(
         title_x=0.5,
     )
+    timeline.update_yaxes(visible=False, showticklabels=False)
     return timeline
